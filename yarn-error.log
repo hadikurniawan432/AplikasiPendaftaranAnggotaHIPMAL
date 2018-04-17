@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Roaming\Composer\vendor\bin;C:\Users\user\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "HadiKurniawan",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-native-scripts": "1.13.1",
+      "jest-expo": "26.0.0",
+      "react-test-renderer": "16.3.0-alpha.1"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+      "start": "react-native-scripts start",
+      "eject": "react-native-scripts eject",
+      "android": "react-native-scripts android",
+      "ios": "react-native-scripts ios",
+      "test": "jest"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "expo": "^26.0.0",
+      "react": "16.3.0-alpha.1",
+      "react-native": "0.54.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.61.173:443
+      at Object._errnoException (util.js:1022:11)
+      at _exceptionWithHostPort (util.js:1044:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
